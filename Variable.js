@@ -21,4 +21,15 @@ console.log(name);          // cha 출력
 // name = 'cha1';
 // console.log(name);           에러발생 const 재할당 불가능
 
+// Object 
+
+const obj = {
+    name:'dom'
+    , age: '30'
+}
+
+console.log(obj.name);      // dom 출력
+
+obj.name='cha';
+console.log(obj.name);      // cha 출력
 
