@@ -73,3 +73,21 @@ printAgain();
 const sumAgain = sum;
 console.log(sumAgain(1,3));
 
+// 8. callback 함수
+function randomQuiz(answer, printYes, printNo){
+    if(answer === 'love you'){
+        printYes();
+    } else{
+        printNo();
+    }
+}
+
+const printYes = function(){
+    console.log('yes');
+}
+const printNo = function(){
+    console.log('no');
+}
+
+randomQuiz('love you', printYes, printNo);
+randomQuiz('unknow', printYes, printNo);
