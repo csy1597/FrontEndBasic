@@ -55,3 +55,11 @@ function printMsg(){
 }
 printMsg()
 
+// 6. Return value
+// 함수 중에 return 같이 없는거는 생략이 가능해서 사용을 하지 않은 것이다.
+function sum(a,b){
+    retunr a+b;
+}
+const result = sum(1,2);
+console.log(`sum-> ${sum(1,2)}`);
+
