@@ -56,10 +56,20 @@ function printMsg(){
 printMsg()
 
 // 6. Return value
-// 함수 중에 return 같이 없는거는 생략이 가능해서 사용을 하지 않은 것이다.
+// 함수 중에 return 값이 없는거는 생략이 가능해서 사용을 하지 않은 것이다.
 function sum(a,b){
-    retunr a+b;
+    return a+b;
 }
 const result = sum(1,2);
 console.log(`sum-> ${sum(1,2)}`);
+
+// 7. 함수표현식
+const print = function(){
+    console.log('print');
+}
+print();
+const printAgain = print;
+printAgain();
+const sumAgain = sum;
+console.log(sumAgain(1,3));
 
