@@ -43,4 +43,15 @@ function printAll(...arg){
     }
     */
 }
-printAll('안녕', 'hello', 'hi');
+printAll('안녕', 'hello', 'hi');    // '안녕', 'hello', 'hi' 출력
+
+// 5. local scope   범위
+// 함수 안에서는 함수 밖이든 안이든 상관없이 사용가능하나 함수 안에 있는걸 밖으로 끄집어내서 사용할 수 없다.
+const globalMsg = 'global';
+function printMsg(){
+    const msg = 'hello';
+    console.log(msg);
+    console.log(globalMsg);
+}
+printMsg()
+
