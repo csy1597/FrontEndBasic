@@ -91,3 +91,19 @@ const printNo = function(){
 
 randomQuiz('love you', printYes, printNo);
 randomQuiz('unknow', printYes, printNo);
+
+// Arrow function = 화살표함수
+// 일반함수
+const simplePrint = function(){
+    console.log('simplePrint');
+}
+
+const add = function(a,b){
+    return a+b;
+}
+
+// 화살표함수
+const simplePrint = () => console.log('simplePrint');
+
+const add = (a,b) => a+b;
+
