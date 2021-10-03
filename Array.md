@@ -45,10 +45,16 @@
         7. splice -> 인덱스 위치에 있는 항목 삭제
                      splice(인덱스번호, 삭제개수)
                      삭제개수가 없으면 지정한 인덱스번호 이후에 데이터는 삭제된다.
-        console.log(fruits.splice(0,1));    // ['사과', '딸기'] 출력
+        const splice = fruits.splice(0,1);
+        console.log(fruits);    // ['사과', '딸기'] 출력
 
         8. slice -> 배열 복사
         console.log(fruits.slice);      // ['사과', '딸기'] 출력
 
+        9. concat -> 새로운 배열 데이터를 다른 배열에 추가
 
+        const concat = ['키위', '망고'];
+        const newFruits = fruits.concat(concat);
+        console.log(newFruits);
+        
 

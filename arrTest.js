@@ -19,3 +19,7 @@ console.log(carArr);
 
 const splice = carArr.splice(1,1);
 console.log(carArr);
+
+const car = ['볼보', '재규어'];
+const newCar = carArr.concat(car);
+console.log(newCar);
