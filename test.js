@@ -1,14 +1,15 @@
-const test = [1,2,3, 'c', 'b'];
+const carArr = ['현대','기아', '쉐보레'];
+console.log(carArr);
 
-console.log(test[4]);
+carArr[3] = '벤츠';
+console.log(carArr);
+console.log(carArr.length);
 
-test[2] = 4;
-console.log(test);
+const push = carArr.push('BMW');
+console.log(carArr);
 
-console.log(test.indexOf(1));
+const pop = carArr.pop();
+console.log(carArr);
 
-const arr = ['과일','자동차', '과자'];
-
-console.log(arr);
-
-console.log(arr.slice());
+const shift = carArr.shift();
+console.log(carArr);
