@@ -23,3 +23,8 @@ console.log(carArr);
 const car = ['볼보', '재규어'];
 const newCar = carArr.concat(car);
 console.log(newCar);
+
+console.log(newCar.indexOf('쉐보레'));
+console.log(newCar.indexOf('기아'));
+
+console.log(newCar.includes('현대'));

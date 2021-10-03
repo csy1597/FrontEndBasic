@@ -56,5 +56,8 @@
         const concat = ['키위', '망고'];
         const newFruits = fruits.concat(concat);
         console.log(newFruits);
+
+        10. include -> 배열 데이터의 유무를 확인
+        console.log(newFruits.includes('키워'));
         
 
