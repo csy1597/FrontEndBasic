@@ -16,4 +16,14 @@
     fruits[2] = '딸기';
     console.log(fruits);    // ['바나나', '사과', '딸기'] 출력
 
+    // Array 연산
+        
+        1. length -> 배열의 개수
+        console.log(fruits.length);      // 3 출력
+        배열 데이터에서 마지막 데이터 출력하기
+        console.log(fruits.[fruits.length-1]);  // 딸기 출력
+
+        2. push -> 배열 끝에 데이터 추가
+        const newFruit = fruits.push('포도');
+        console.log(fruits);    // ['바나나', '사과', '딸기', '포도'] 출력
 
