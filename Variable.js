@@ -33,3 +33,5 @@ console.log(obj.name);      // dom 출력
 obj.name='cha';
 console.log(obj.name);      // cha 출력
 
+
+
