@@ -24,6 +24,31 @@
         console.log(fruits.[fruits.length-1]);  // 딸기 출력
 
         2. push -> 배열 끝에 데이터 추가
-        const newFruit = fruits.push('포도');
+        const push = fruits.push('포도');
         console.log(fruits);    // ['바나나', '사과', '딸기', '포도'] 출력
+
+        3. pop -> 배열 끝에 데이터 삭제
+        const pop = fruits.pop();
+        console.log(fruits);    // ['바나나', '사과', '딸기'] 출력
+
+        4. shift -> 배열 앞에 데이터 삭제
+        const shift = fruits.shift();
+        console.log(fruits);    // ['사과', '딸기'] 출력
+
+        5. unshift -> 배열 앞에 데이터 추가
+        const unshift = fruits.unshift('바나나');
+        console.log(fruits)     // ['바나나', '사과', '딸기'] 출력
+
+        6. indexOf -> 배열 안 데이터의 인덱스 번호 찾기
+        console.log(fruits.indexOf('사과'));    // 1 출력
+
+        7. splice -> 인덱스 위치에 있는 항목 삭제
+                     splice(인덱스번호, 삭제개수)
+                     삭제개수가 없으면 지정한 인덱스번호 이후에 데이터는 삭제된다.
+        console.log(fruits.splice(0,1));    // ['사과', '딸기'] 출력
+
+        8. slice -> 배열 복사
+        console.log(fruits.slice);      // ['사과', '딸기'] 출력
+
+
 
