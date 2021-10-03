@@ -13,3 +13,9 @@ console.log(carArr);
 
 const shift = carArr.shift();
 console.log(carArr);
+
+const unshift = carArr.unshift('현대');
+console.log(carArr);
+
+const splice = carArr.splice(1,1);
+console.log(carArr);
