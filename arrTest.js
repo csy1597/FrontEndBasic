@@ -42,3 +42,15 @@ const map = fruits.map(function(fruit){
 });
 console.log(map);
 console.log('-----------------------------')
+
+const filter = fruits.filter(function(fruit){
+    return fruit.size === 'small';
+});
+console.log(filter);
+console.log('-----------------------------')
+
+const reduce = fruits.reduce(function(a,b){
+    console.log(a, b.weight);
+    return a+b.weight;
+}, 0);
+console.log(reduce);
