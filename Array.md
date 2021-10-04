@@ -60,4 +60,14 @@
         10. include -> 배열 데이터의 유무를 확인
         console.log(newFruits.includes('키워'));
         
+        const car = [
+            {name:'텔루라이드', size:'대형', money:15,000}
+            , {name:'쏘렌토', size:'중형', money:5,000}
+            , {name:'아반떼', size:'준중형', money:2,000}
+            , {name:'스파크', size:'소형', money:1,000}
+        ];
+
+        11. map -> 
+        12. filter ->
+        13. reduce ->
 
