@@ -60,14 +60,30 @@
         10. include -> 배열 데이터의 유무를 확인
         console.log(newFruits.includes('키워'));
         
-        const car = [
-            {name:'텔루라이드', size:'대형', money:15,000}
+        const cars = [
+            {name:'텔루라이드', size:'대형', money:6,000}
             , {name:'쏘렌토', size:'중형', money:5,000}
             , {name:'아반떼', size:'준중형', money:2,000}
             , {name:'스파크', size:'소형', money:1,000}
         ];
 
-        11. map -> 
-        12. filter ->
-        13. reduce ->
+        11. map -> 새로운 배열을 만든다.
+        const newCar = cars.map(function(car){
+            return `나는 ${car.name} 사고싶어!!!!`
+        });
+        console.log(newCar); // 나는 텔루라이드 사고싶어!!!
+
+        12. filter -> 배열 안에 내가 원하는 데이터만 출력하기
+        const carSize = cars.filter(function(car){
+            return car.size === '대형';            
+        });
+        console.log(carSize); // {name:'텔루라이드', size:'대형', money:6,000} 출력
+
+        13. reduce -> 배열 안에 있는 데이터를 합친다.
+        //  reduce 선언
+            -> a는 더한값 b는 더할값
+        const carMoney = cars.reduce(function(a,b){
+            return a + b.money
+        }, 0);
+        console.log(carMoney);  // 14,000 출력
 
