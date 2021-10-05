@@ -64,6 +64,22 @@ console.log('----------------------');
 const test3 = num2.map( b => b * 2);
 console.log(test3);
 
+//filter
+
+const stuInfo = [
+    {No:1, add:'인천', sex:'남'}
+    , {No:1, add:'서울', sex:'여'}
+    , {No:1, add:'광주', sex:'여'}
+    , {No:1, add:'인천', sex:'남'}
+    , {No:1, add:'대전', sex:'남'}
+];
+
+const student = stuInfo.filter(function(a){
+    return a.add ==='인천';
+});
+
+console.log(student);
+
 
 
 
