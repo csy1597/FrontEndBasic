@@ -20,6 +20,8 @@ const newGrade2 = grades.map(function(a){
 });
 console.log(newGrade2);
 
+console.log('----------------------');
+
 // filter
 
 const newGrade3 = grades.filter(function(b){
@@ -27,3 +29,12 @@ const newGrade3 = grades.filter(function(b){
 });
 
 console.log(newGrade3);
+console.log('----------------------');
+
+const num1 = [1,2,3]
+
+const number = num1.concat(4,5,6);
+console.log(number);
+
+
+
