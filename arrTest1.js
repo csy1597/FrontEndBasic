@@ -31,10 +31,13 @@ const newGrade3 = grades.filter(function(b){
 console.log(newGrade3);
 console.log('----------------------');
 
-const num1 = [1,2,3]
+const num1 = [1,2,3];
+const num2 = [4,5,6];
 
-const number = num1.concat(4,5,6);
+const number = num1.concat(4,5,6, num2);
 console.log(number);
+
+
 
 
 
