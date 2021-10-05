@@ -52,12 +52,17 @@ const test = kvArray.map(function(obj){
     return rObj;
 });
 console.log(test);
+console.log('----------------------');
 
 const test2 = num1.map(function(a){
     return a+2;
 });
 
 console.log(test2);
+console.log('----------------------');
+
+const test3 = num2.map( b => b * 2);
+console.log(test3);
 
 
 
