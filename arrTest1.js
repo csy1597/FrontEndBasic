@@ -46,7 +46,6 @@ const kvArray = [
         , {key: 3, value: 30}
 ];
 
-
 const test = kvArray.map(function(obj){
     const rObj = {};
     rObj[obj.key] = obj.value;
@@ -54,7 +53,11 @@ const test = kvArray.map(function(obj){
 });
 console.log(test);
 
+const test2 = num1.map(function(a){
+    return a+2;
+});
 
+console.log(test2);
 
 
 
