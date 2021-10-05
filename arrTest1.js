@@ -77,9 +77,16 @@ const stuInfo = [
 const student = stuInfo.filter(function(a){
     return a.add ==='인천';
 });
-
 console.log(student);
+console.log('----------------------');
 
+function arr1(value){
+    return value >=10;
+}
+
+const filterTest = [1,40,23,9].filter(arr1);
+console.log(filterTest);
+console.log('----------------------');
 
 
 
