@@ -7,8 +7,23 @@ const grades = [
     , {name: 'social', score: 65, grade:'D'}
 ];
 
-const concat = [{name:'history', score: 88, grade:'B'}];
+// concat
+const grade = [{name:'history', score: 88, grade:'B'}];
 
-const newGrade = grades.concat(concat);
+const newGrade = grades.concat(grade);
 console.log(newGrade);
+console.log('----------------------');
 
+// map
+const newGrade2 = grades.map(function(a){
+    return `${a.name} 과목은 ${a.grade} 학점이다. `
+});
+console.log(newGrade2);
+
+// filter
+
+const newGrade3 = grades.filter(function(b){
+    return b.grade !== 'A';
+});
+
+console.log(newGrade3);
