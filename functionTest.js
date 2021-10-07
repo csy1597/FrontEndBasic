@@ -51,3 +51,16 @@ console.log('--------------------------')
 
 const addTest = (a,b) => a+b;
 console.log(addTest(3,4));
+console.log('--------------------------')
+
+const hello = function(){
+    return 'hello';
+}
+console.log(hello());
+console.log('--------------------------')
+
+
+function hello1(){
+    console.log('안녕하세요');
+}
+hello1();

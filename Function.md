@@ -38,3 +38,14 @@ hello();
         - Hoisting 된다.(즉, 함수 정의 전 호출 코드 사용가능)
         - 자체 호출 불가
     
+    3) 함수식 방식(function expression): 변수 사용 방식(Hoisting 불가)
+        - 함수를 변수에 담아, 변수명으로 함수 호출한다.
+        - 실행문이므로 끝에 ;(세미콜론) 을 붙여야한다.
+        - Hoisting 안됨(즉, 함수정의 전 호출 코드 사용 불가)
+        - 자체 호출 가능
+```js
+const hello = function(){
+    return 'hello';
+}
+console.log(hello());
+```
