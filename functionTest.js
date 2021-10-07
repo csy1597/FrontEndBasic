@@ -47,3 +47,7 @@ function fail(){
 }
 
 stuGrade(60, pass, fail);
+console.log('--------------------------')
+
+const addTest = (a,b) => a+b;
+console.log(addTest(3,4));
