@@ -8,7 +8,7 @@
     - 조건식의 값이 참(turn)인지 거짓(false)인지에 따라 자바스크립트 코드를 제어한다.
 
 ```js
-// if문 기본적인 선언방법
+// if문 기본적인 선언방법1
 if(조건식){
     자바스크립트 코드;
 }
@@ -17,4 +17,46 @@ const num = 90;
 if(num>=60){
     console.log('통과입니다.')
 }
+```
+```js
+// if문 기본적인 선언방법2
+if(조건식){
+    자바스크립트 코드;
+} else{
+    자바스크립트 코드
+}
+
+const korScore = 50;
+if(korScore >=60){
+    console.log('통과');
+} else{
+    console.log('탈락');
+}
+```
+```js
+// if문 기본적인 선언방법3
+// else if 의 수는 상관없이 계속 늘어날수있다.
+if(조건식){
+    자바스크립트 코드;
+} else if(조건식){
+    자바스크립트 코드;
+} else if(조건식){
+    자바스크립트 코드;
+} else{
+    자바스크립트 코드;
+}
+
+const math = 83;
+if(math >= 90){
+    console.log('A학점');
+} else if(math >= 80){
+    console.log('B학점');
+} else if(math >= 70){
+    console.log('C학점');
+} else if(math >= 60){
+    console.log('D학점');
+} else{
+    console.log('F학점');
+}
+
 ```
