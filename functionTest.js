@@ -64,3 +64,9 @@ function hello1(){
     console.log('안녕하세요');
 }
 hello1();
+console.log('--------------------------')
+
+function foo(){
+    console.log(arguments[0]);
+}
+foo('아무거나 다 받냐 ???');
