@@ -117,5 +117,16 @@ while(a>0){
 ```
 ```js
 // do while문 기본적인 선언방법
+let 변수명 = 변수값;
+do{
+    자바스크립트 코드
+    증감식
+} while(조건식)
+
+let num = 4
+do{
+    console.log('안녕하세요')
+} while(num>10)
+// while 조건식이 false 이기 때문에 '안녕하세요' 가 한번 출력되고 while문은 종료된다.
 ```
 
