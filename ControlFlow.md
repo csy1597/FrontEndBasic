@@ -103,4 +103,19 @@ for(let i=0; i<5; i++){
 ```
 ```js
 // whlie문 기본적인 선언방법
+let 변수명 = 변수값
+while(조건식){
+    자바스크립트 코드;
+    증감식;
+}
+
+let a = 3;
+while(a>0){
+    console.log(a);
+    a--;
+}
 ```
+```js
+// do while문 기본적인 선언방법
+```
+
