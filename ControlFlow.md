@@ -58,5 +58,33 @@ if(math >= 90){
 } else{
     console.log('F학점');
 }
-
 ```
+
+## 선택문(switch)
+    - 변수의 저장된 값과 switch 문에 있는 case 값을 검사하여 
+      일치하는 값이 있을 때 그에 해당하는 코드가 실행된다.
+```js
+// switch 문 기본선언 방법
+const 변수명 = 값;
+switch(변수명){
+    case 값: 자바스크립트 코드;
+    break;
+    case 값1: 자바스크립트 코드;
+    break;
+    case 값2: 자바스크립트 코드;
+    break;
+    case 값n: 자바스크립트 코드;
+    break;
+    default: 자바스크립트 코드;
+}
+
+const areaCode = 032
+switch(areaCode){
+    case 02 : console.log('서울');
+    break;
+    case 032 : console.log('인천');
+    break;
+    default : console.log('정보를 찾을 수 없습니다.');
+}
+```
+
