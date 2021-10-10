@@ -1,5 +1,6 @@
 // for, for of, forEach, if, swich, while
 
+// if, else if, else
 const math = 83;
 if(math >= 90){
     console.log('A학점');
@@ -11,4 +12,19 @@ if(math >= 90){
     console.log('D학점');
 } else{
     console.log('F학점');
+}
+
+// for
+for(let i =0;i<5;i++){
+    console.log(i);
+}
+
+// for in
+const stuInfo = {
+    name: 'corn'
+    , age: 15
+}
+
+for(let info in stuInfo){
+    console.log(`${info} : ${stuInfo[info]}`)
 }
