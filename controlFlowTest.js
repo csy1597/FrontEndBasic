@@ -28,3 +28,12 @@ const stuInfo = {
 for(let info in stuInfo){
     console.log(`${info} : ${stuInfo[info]}`)
 }
+
+const stuInfo1 = {
+    name : 'bob'
+    , stuNo: 1
+    , age: 16
+}
+for (const info in stuInfo1){
+    console.log(`${info} : ${stuInfo1[info]}`)
+}

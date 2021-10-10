@@ -130,3 +130,16 @@ do{
 // while 조건식이 false 이기 때문에 '안녕하세요' 가 한번 출력되고 while문은 종료된다.
 ```
 
+## for in
+    - 상속된 열거 가능한 속성들을 포함하여 객체에서 문자열로 키가
+      지정된 모든 열거 가능한 속서엥 대해 반복한다.
+```js
+const stuInfo = {
+    name : 'bob'
+    , stuNo: 1
+    , age: 16
+}
+for (const info in stuInfo){
+    console.log(`${info} : ${stuInfo[info]}`)
+}
+```    
