@@ -37,3 +37,8 @@ const stuInfo1 = {
 for (const info in stuInfo1){
     console.log(`${info} : ${stuInfo1[info]}`)
 }
+
+const arr = [1,2,3];
+for(const num of arr){
+    console.log(num)
+}
