@@ -142,4 +142,14 @@ const stuInfo = {
 for (const info in stuInfo){
     console.log(`${info} : ${stuInfo[info]}`)
 }
-```    
+```
+
+## for of
+    - 반복가능한 객체에 대해서 반복하고 각 개별 속성값에 대해 실행
+      되는 문이 있는 사용자 정의 반복 후크를 호출하는 루프를 생성한다.
+```js
+const arr = [1,2,3];
+for(const num of arr){
+    console.log(num);
+}
+```
